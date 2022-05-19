@@ -1,0 +1,102 @@
+.header{
+	display:flex;
+    justify-content:center;
+    background-color:#141e78;
+    color:white;
+    border-bottom:10px solid white;
+    font-family:Arial;
+}
+/* Buttons */
+button{
+	padding:10px;
+    text-align:center;
+    border-radius:50%;
+    font-family:Shizuru;
+}
+button:hover{
+	padding-right:8%;
+    padding-left:8%;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin:10px;
+}
+.options{
+	background-color:black;
+    padding-top:10px;
+    color:white;
+}
+.about{
+	padding-right:7%;
+    padding-left:7%;
+    margin:4px;
+    background-color:#141e78;
+    color:white;
+}
+.positions{	
+    padding-right:7%;
+    padding-left:7%;
+    margin:4px;
+    background-color:#f21811;
+    color:white;
+}
+.history{
+	padding-right:7%;
+    padding-left:7%;
+    margin:4px;
+    background-color:#116b3d;
+    color:white;
+}
+
+.events{
+	padding-right:7%;
+    padding-left:7%;
+    margin:4px;
+}
+
+.awards{
+	padding-right:7%;
+    padding-left:7%;
+    margin:4px;
+    background-color:#bdb691;
+    color:white;
+}
+/* About page */
+.about-pg{
+	background-color:#141e78;
+    display:flex;
+    color:white;
+    font-family:League Spartan;
+    font-size:20px;
+}
+.w{
+	height:500px;
+    text-align:center;
+    width:100%;
+    height:100%;
+}
+.space-needed{
+	margin-left:5%;
+}
+/* Positions page */
+.positions-pg{
+	background-color:#f21811;
+    color:white;
+    margin-top:0px;
+	padding:20px;    
+    padding-left:30%;
+    font-family:Raleway;
+}
+/* Awards page */
+.awards-pg{
+	background-color:#bdb691;
+    padding:50px;
+    color:white;
+    font-family:Shippori Antique B1;
+}
+/* History page */
+.history-pg{
+	background-color:#116b3d;
+    padding:30px;
+    color:white;
+    font-family:Quicksand;
+}
